@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-color: white;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.container{
+max-width: 100%;
+margin: 0 auto;
+background-color: white;
+}
+
+/* Header section */
+
+.logo{
+  width: 25%;
+  padding-top: 15px;
+  margin-left: 2%;
+}
+
+header{
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+img{
+  width: 70%;
+  object-fit: cover;
+}
+
+/* navigatie section */
+
+nav{
+  display: flex;
+  width: 95%;
+}
+
+ul{
+  width: 75%;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 25%;
+  margin: 0 0 0 0;
+  text-align: right;
+  font-size: 18px;
+}
+
+li{
+  width: 25%;
+  list-style-type: none;
+
+}
+
+a{
+  color: rgb(115,115,115);
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(135,6,6);
+}
+
+/* Main Section */
+
+main{
+  height: 400px;
+  background-color: rgb(115,115,115);
+  color: white;
+  padding: 30px 30%;
+}
+
+p{
+  padding-top: 25px;
+  overflow: inherit;
+}
+
+.text{
+  text-align: center;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.branches-box {
+  padding-bottom: 25px;
+  padding-left: 40px;
+}
+
+.icon {
+  color: rgb(180,180,180);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(135,6,6);
+}
+
+/* Footer Section */
+
+footer{
+  background-color: white;
+  color: rgb(115,115,115);
+}
+
+h4{
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+hr{
+background-color: rgb(115,115,115);
+height: 1px;
+width: 23%;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: rgb(115,115,115);
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 100%;
+  border-radius: 1%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  background-color: rgb(115,115,115);
+  color: #fff;
+}
+
+/* Media Selectors */
+
+@media screen and (min-width: 601px) and (max-width: 1000px){
+  main{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main{
+  height: auto;
+  }
+}
